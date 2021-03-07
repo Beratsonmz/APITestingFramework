@@ -4,12 +4,16 @@
     <listeners>
        <listener class-name="Utilities.ExtentListener"></listener>
     </listeners>
-    <test  name="Create Order Test">
+    <test  name="Create Customer Test">
       <classes>
-          <class name="TestCases.Paypal.OrderTests"></class>
+          <class name="TestCases.Stripe.CreateCustomerTest"></class>
       </classes>
     </test> <!-- Test -->
-
+    <test  name="Delete Customer Test">
+        <classes>
+            <class name="TestCases.Stripe.DeleteCustomerTest"></class>
+        </classes>
+    </test> <!-- Test -->
 
   
 </suite> <!-- Suite -->

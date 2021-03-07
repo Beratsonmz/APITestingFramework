@@ -1,7 +1,7 @@
-package TestCases;
+package TestCases.Stripe;
 
 import AppHooks.TestBase;
-import Requests.DeleteCustomer;
+import Requests.Stripe.DeleteCustomer;
 import Utilities.DataUtility;
 import Utilities.ExtentListener;
 import Utilities.TestUtility;

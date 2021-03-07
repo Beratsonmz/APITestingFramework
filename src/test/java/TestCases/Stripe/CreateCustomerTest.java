@@ -1,8 +1,8 @@
-package TestCases;
+package TestCases.Stripe;
 
 
 import AppHooks.TestBase;
-import Requests.CreateCustomer;
+import Requests.Stripe.CreateCustomer;
 import Utilities.DataUtility;
 import Utilities.ExtentListener;
 import io.restassured.response.Response;

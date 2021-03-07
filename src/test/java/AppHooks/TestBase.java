@@ -5,7 +5,6 @@ import io.restassured.RestAssured;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -29,7 +28,7 @@ public class TestBase {
             e.printStackTrace();
         }
         RestAssured.baseURI = config.getProperty("baseURI");
-        RestAssured.basePath = config.getProperty("basePath");
+        //RestAssured.basePath = config.getProperty("basePath");
     }
 
     @AfterSuite

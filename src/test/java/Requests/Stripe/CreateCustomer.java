@@ -1,4 +1,4 @@
-package Requests;
+package Requests.Stripe;
 
 
 import AppHooks.TestBase;
